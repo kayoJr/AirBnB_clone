@@ -1,27 +1,29 @@
 #!/usr/bin/python3
-"""Module that inherits from BaseModel"""
+"""
+Place module
+"""
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """class the represent state
+    """
+    class Place
     Attributes:
-    city_id: empty string: it will be the City.id
-    user_id: empty string: it will be the User.id
-    name:  empty string
-    description: empty string
+    city_id: string - empty string: it will be the City.id
+    user_id: string - empty string: it will be the User.id
+    name: string - empty string
+    description: string - empty string
     number_rooms: integer - 0
     number_bathrooms: integer - 0
     max_guest: integer - 0
     price_by_night: integer - 0
     latitude: float - 0.0
     longitude: float - 0.0
-    amenity_ids: list of str - empty list:
-    it will be the list of Amenity.id later
+    amenity_ids: list of string - empty list: it will be the list of Amenity.id
     """
-    name = ""
     city_id = ""
     user_id = ""
+    name = ""
     description = ""
     number_rooms = 0
     number_bathrooms = 0

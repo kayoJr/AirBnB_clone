@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-"""Module that inherits from BaseModel"""
+"""
+Amenity module
+"""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """class the represent Amenity"""
+    """
+    class Amenity
+    attributes:
+    name(str)
+    """
     name = ""
